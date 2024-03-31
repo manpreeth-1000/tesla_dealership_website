@@ -1,0 +1,149 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1;
+}
+.carousel-control-prev {
+    width: auto; 
+    margin-left: 10px; 
+}
+.carousel-control-next {
+    width: auto; 
+    margin-right: 10px; 
+}
+
+body{
+    padding-top: 70px;
+}
+h1{
+    font-size: 2.5vh;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+h1 a:hover {
+    color: blue;
+  }
+
+
+
+.show {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    height:70px;
+    transition: color 0.3s ease;
+
+  }
+
+.row{
+    margin: 5vw;
+}
+
+.btn{
+    margin-bottom: 2.5vh;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+
+}
+
+.About_Us{
+    background-image: url("./blackbg.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about{
+    font-size: 100px;
+    border: 0px;
+    margin: 0px;
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+#aboutp{
+    color: white;
+    margin: 10vh 25vw 0px 25vw;
+    font-size: 20px;
+}
+
+
+.social-icon:hover img {
+    transform: scale(1.2);
+    }
+    
+.app-logo{
+      display:flex;
+      margin-left: 42%;
+    }
+    
+    
+.contact {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #333;
+      color: #fff;
+    }
+    
+.contact h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    
+.contact .app-logo {
+      display: flex;    
+      align-items: center;
+    }
+    
+.contact .social-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+    }
+    
+.contact .social-icon {
+      margin: 0 10px;
+    }
+    
+.contact .social-icon img {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      background-color: #fff;
+      padding: 8px;
+      transition: transform 0.3s ease-in-out;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0);
+    }
+    
+.contact .social-icon img:hover {
+      transform: scale(1.2);
+    }
+.contact h3 {
+      font-size: 1.2em;
+      color: #3498db;
+      margin-top: 10px;
+    }
+    
+.contact p {
+      font-size: 1em;
+      color: #ddd;
+      line-height: 1.6;
+    }
